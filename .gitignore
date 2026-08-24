@@ -104,3 +104,7 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# --- 이 프로젝트 추가 규칙 ---
+# docs/tools 를 루트로 옮기고 남은 빈 레거시 저장소
+/Unity_RPG_M/
