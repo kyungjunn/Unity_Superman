@@ -111,6 +111,7 @@ InitTestScene*.unity*
 
 # 로컬 에이전트 상태와 Unity 복구 데이터
 /.gjc/
+/.mcp.json
 /Assets/_Recovery/
 /Assets/_Recovery.meta
 /Assets/McpUnity/
