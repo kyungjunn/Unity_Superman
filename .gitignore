@@ -119,4 +119,6 @@ InitTestScene*.unity*
 
 # 로컬 기획·분석 문서
 /docs/
-/tools/render_docs.py
+
+# 로컬 이미지 생성 도구
+/tools/
