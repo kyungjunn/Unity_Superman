@@ -46,15 +46,14 @@ namespace GrowNa.Tests
         }
 
         [Test]
-        public void Legacy_version_is_unsupported()
+        public void Version_6_is_unsupported()
         {
             var data = Sample();
-            data.version = 7;
-            var json = SaveValidator.ToCanonicalJson(data).Replace("\"version\": 7", "\"version\": 7");
-            json = json.Replace("\"version\": 8", "\"version\": 7");
+            data.version = 6;
+            var json = SaveValidator.ToCanonicalJson(data);
             var result = SaveValidator.Read(Encoding.UTF8.GetBytes(json));
             Assert.AreEqual(SaveReadStatus.UnsupportedVersion, result.Status);
-            Assert.AreEqual(7, result.ParsedVersion);
+            Assert.AreEqual(6, result.ParsedVersion);
         }
 
         [Test]
