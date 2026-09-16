@@ -1,13 +1,13 @@
 """장비 8슬롯 레이어 합성 검증용 플레이스홀더 스프라이트 생성기.
 
-char_scarecrow_base.png (512x512, PPU 256) 와 동일 캔버스/피벗을 쓰는 오버레이 8장을 만든다.
+512x512, PPU 256 캔버스/피벗을 쓰는 오버레이 8장을 만든다. 본체는 Axel 이고, 이 PNG 는 슬롯 실루엣 플레이스홀더다.
 색은 흰색 계열로만 그리고, 티어 색은 런타임에서 SpriteRenderer.color 로 곱한다.
 """
 
 from PIL import Image, ImageDraw
 
 SIZE = 512
-OUT = r"Z:/Unity/GrowNa/Assets/_Project/Art/Sprites"
+OUT = r"Z:/Unity/GrowNa/Assets/Art/Sprites"
 
 LINE = (60, 44, 30, 255)
 FILL = (236, 236, 236, 255)
