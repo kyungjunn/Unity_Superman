@@ -117,9 +117,6 @@ InitTestScene*.unity*
 /Assets/McpUnity.meta
 **/AGENTS.md.meta
 
-# 로컬 분석·상태 보고서와 생성된 문서 뷰어
-/docs/ARCHITECTURE.md
-/docs/STATUS.md
-/docs/architecture-redesign-audit.md
-/docs/status.html
+# 로컬 기획·분석 문서
+/docs/
 /tools/render_docs.py
