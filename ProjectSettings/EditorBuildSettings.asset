@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/_Project/Scenes/Main.unity
+    path: Assets/Scenes/Main.unity
     guid: 5cfb1a693991a81469312afa9b6232a5
+  - enabled: 1
+    path: Assets/_Project/Scenes/Main.unity
+    guid: 1dbd49406346e864592de4ca12bc1021
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

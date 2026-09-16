@@ -1,0 +1,17 @@
+{
+    "name": "GrowNa.Runtime",
+    "rootNamespace": "GrowNa",
+    "references": [
+        "UnityEngine.UI",
+        "Newtonsoft.Json"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

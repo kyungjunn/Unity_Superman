@@ -108,3 +108,18 @@ InitTestScene*.unity*
 # --- 이 프로젝트 추가 규칙 ---
 # docs/tools 를 루트로 옮기고 남은 빈 레거시 저장소
 /Unity_RPG_M/
+
+# 로컬 에이전트 상태와 Unity 복구 데이터
+/.gjc/
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+/Assets/McpUnity/
+/Assets/McpUnity.meta
+**/AGENTS.md.meta
+
+# 로컬 분석·상태 보고서와 생성된 문서 뷰어
+/docs/ARCHITECTURE.md
+/docs/STATUS.md
+/docs/architecture-redesign-audit.md
+/docs/status.html
+/tools/render_docs.py
